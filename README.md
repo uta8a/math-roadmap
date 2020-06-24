@@ -4,6 +4,7 @@
 ## notation
 - :arrow_forward: いま取り組んでいる
 - :green_book: 本買いたい...(持ってない)
+- :ok: 完了
 
 # 順番
 - Smartは必ず進める。他は時間のあるときに。
