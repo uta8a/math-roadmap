@@ -1,0 +1,125 @@
+\documentclass{article}
+
+\usepackage{epsfig}
+
+%\usepackage{algorithm2e}
+%\usepackage[linesnumbered]{algorithm2e}
+%\usepackage[linesnumbered,ruled]{algorithm2e}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
+\title{Example of how to use Algorithm2e}
+\author{Robert Woodward}
+
+\begin{document}
+\maketitle
+
+Below we illustrate the formatting as pseudo code of some sample
+of simple algorithms. The goal is not to entice you to use
+\LaTeX\/ for formatting your algorithms as currently the best
+possible formatting tool for algorithms. Please carefully check
+the source files and learn how to use this style. Importantly:
+\begin{itemize}
+\item
+Always state your input
+\item
+State the output if any
+\item
+Always number your lines for quick referral.
+\item
+Always declare and initialize your local variables
+\item
+Always use \textbackslash gets for assignments
+\item
+Always end with ``return'' even when not returning any values
+\item
+Use common functions and operands such as {\sc Union}, {\sc PowerSet}, etc. as often as needed, unless you are asked to define them.
+\end{itemize}
+
+Algorithm~\ref{algo:max} will find
+the maximum element in a finite sequence (Slide 14 in Class Slides).
+
+\begin{algorithm}
+\DontPrintSemicolon % Some LaTeX compilers require you to use \dontprintsemicolon instead
+\KwIn{A finite set $A=\{a_1, a_2, \ldots, a_n\}$ of integers}
+\KwOut{The largest element in the set}
+$max \gets a_1$\;
+\For{$i \gets 2$ \textbf{to} $n$} {
+  \If{$a_i > max$} {
+    $max \gets a_i$\;
+  }
+}
+\Return{$max$}\;
+\caption{{\sc Max} finds the maximum number}
+\label{algo:max}
+\end{algorithm}
+
+Algorithm~\ref{algo:change} is a greedy change-making algorithm (Slide 19 in Class Slides).
+
+\begin{algorithm}
+\DontPrintSemicolon % Some LaTeX compilers require you to use \dontprintsemicolon instead 
+\KwIn{A set $C = \{c_1, c_2, \ldots, c_r\}$ of denominations of coins, where $c_i > c_2 > \ldots > c_r$ and a positive number $n$}
+\KwOut{A list of coins $d_1,d_2,\ldots,d_k$, such that $\sum_{i=1}^k d_i = n$ and $k$ is minimized}
+$C \gets \emptyset$\;
+\For{$i \gets 1$ \textbf{to} $r$}{
+  \While{$n \geq c_i$} {
+    $C \gets C \cup \{c_i\}$\;
+    $n \gets n - c_i$\;
+  }
+}
+\Return{$C$}\;
+\caption{{\sc Change} Makes change using the smallest number of coins}
+\label{algo:change}
+\end{algorithm}
+
+Algorithm~\ref{algo:duplicate} and Algorithm~\ref{algo:duplicate2} will
+find the first duplicate element in a sequence of integers.
+
+\begin{algorithm}
+\DontPrintSemicolon % Some LaTeX compilers require you to use \dontprintsemicolon instead
+\KwIn{A sequence of integers $\langle a_1, a_2, \ldots, a_n \rangle$}
+\KwOut{The index of first location witht he same value as in a previous location in the sequence}
+$location \gets 0$\;
+$i \gets 2$\;
+\While{$i \leq n$ \textbf{and} $location = 0$}{
+  $j \gets 1$\;
+  \While{$j < i$ \textbf{and} $location = 0$}{
+    % The "u" before the "If" makes it so there is no "end" after the statement, so the else will then follow
+    \uIf{$a_i = a_j$}{
+      $location \gets i$\;
+    }
+    \Else{
+      $j \gets j + 1$\;
+    }
+  }
+  $i \gets i + 1$\;
+}
+\Return{location}\;
+\caption{{\sc FindDuplicate}}
+\label{algo:duplicate}
+\end{algorithm}
+
+\begin{algorithm}
+\DontPrintSemicolon
+\KwIn{A sequence of integers $\langle a_1, a_2, \ldots, a_n \rangle$}
+\KwOut{The index of first location witht he same value as in a previous location in the sequence}
+$location \gets 0$\;
+$i \gets 2$\;
+\While{$i \leq n \land location = 0$}{
+  $j \gets 1$\;
+  \While{$j < i \land location = 0$}{
+    % The "l" before the If makes it so it does not expand to a second line
+    \lIf{$a_i = a_j$}{
+      $location \gets i$\;
+    }
+    \lElse{
+      $j \gets j + 1$\;
+    }
+  }
+  $i \gets i + 1$\;
+}
+\Return{location}\;
+\caption{{\sc FindDuplicate2}}
+\label{algo:duplicate2}
+\end{algorithm}
+
+\end{document}
