@@ -15,6 +15,7 @@
 - nibelung 疑似コード&実装
 - LLL まだ何もしてない
 - Smart chapter 2 疑問点&疑似コード&実装。でも数学的な基礎が甘くてどこが証明すべきところなのかわからない状態なので他の資料も見てみる。 https://herumi.github.io/ango/ の数学的な章のみを読むことからはじめる。
+- Smart chapter 3 疑似コード&実装。
 
 # 暗号
 
@@ -22,7 +23,10 @@
 - :arrow_forward: Nigel Smart Cryptography: An Introduction
 - :ok: chapter 1 `F_p`とか環などの代数的構造
 - :ok: chapter 2 楕円曲線とその上での点の演算
-- :arrow_forward: chapter 3 古典暗号
+- :ok: chapter 3 古典暗号
+- :arrow_forward: chapter 4 Enigma machine
+  - (web) 線形代数でEnigma [link](https://qiita.com/tommyecguitar/items/5e07b622eaa329ed78a2)
+  - (web) RNNでBreak Enigma [link](https://catindog.hatenablog.com/entry/2018/01/30/232203)
 
 ## CTF
 - :arrow_forward: nibelung / zer0pts CTF これはだいたい理解した
