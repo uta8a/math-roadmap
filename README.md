@@ -13,7 +13,7 @@
 - 疑問メモしながら読む→Chapter終了したら疑問解決に入る→アルゴリズムは疑似コード&実装
 - Smart chapter 1 あとは疑似コード&実装
 - nibelung 疑似コード&実装
-- LLL まだ何もしてない
+- LLL 読み始めた 
 - Smart chapter 2 疑問点&疑似コード&実装。でも数学的な基礎が甘くてどこが証明すべきところなのかわからない状態なので他の資料も見てみる。 https://herumi.github.io/ango/ の数学的な章のみを読むことからはじめる。
 - Smart chapter 3 疑似コード&実装。
 
@@ -33,7 +33,9 @@
 - TSG CTFのアイゼンシュタイン環使うやつも調べたい
 
 ## LLL
-- mitsuさんの記事を読む
+- :arrow_forward: mitsuさんの記事を読む
+  - :ok: 1.格子
+  - :arrow_forward: 2.格子の行列式
 - xagawaさんのpdf
 
 # 数学
