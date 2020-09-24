@@ -19,7 +19,7 @@
 # 数学
 - :arrow_forward: チャーチル、ブラウン 複素関数入門
 - :green_book: Silverman, The Arithmetic of Elliptic Curves
-- :green_book: アールフォルス 複素解析
+- アールフォルス 複素解析
 - :green_book: 辻井、笠原他 暗号理論と楕円曲線
 - :ok: (pdf) Introductory Group Theory and Fermat's Little Theorem
   - 群についてのラグランジュの定理
