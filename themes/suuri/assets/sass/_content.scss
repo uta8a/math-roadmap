@@ -1,0 +1,67 @@
+*:not(.katex, .katex *) {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
+}
+
+#content {
+  max-width: 54em;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#content main > .title {
+  margin-top: 25px;
+}
+
+#content main > .title > h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#content main p {
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#content main > .description p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+#content main > hr {
+  border: 0;
+  height: 2px;
+  background: #555;
+}
+
+#content main > .list-container {
+  margin-top: 15px;
+}
+
+#content main > .list-container dt {
+  display: flex;
+  align-items: flex-end;
+}
+
+#content main > .list-container dt > .title {
+  margin-top: 10px;
+  font-size: large;
+  font-style: bold;
+}
+
+#content main > .list-container dt > .published {
+  margin-top: 10px;
+  font-size: small;
+  margin-left: auto;
+}
+
+#content main > .list-container dt > .title a {
+  color: rgb(174, 75, 8);
+}
+
+#content main > .list-container dd > .description p {
+  margin-left: 1rem;
+}
