@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main>
+    <!-- change layout by searching frontmatter's layout property -->
+    {{ if (isset .Params "layout") }}
+        <article>
+            {{.Content}}
+        </article>
+    {{ else }}
+    <!-- auto generated list of each math content pages -->
+        <ul>
+        {{ range .Pages }}
+            <li>
+                <a href="{{.Permalink}}">{{.Title}}</a>
+                {{range last 1 .Params.changelog}}
+                    {{.date | time.Format "2006-01-02"}}
+                {{end}}
+            </li>
+        {{ end }}
+        </ul>
+    {{ end }}
+</main>
+{{ end }}
