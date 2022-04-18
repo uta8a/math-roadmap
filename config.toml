@@ -1,0 +1,5 @@
+baseURL = 'https://math.docs.uta8a.net'
+languageCode = 'ja'
+defaultContentLanguage = 'ja'
+title = '数学/アルゴリズム/暗号 のメモ'
+theme = 'suuri'
