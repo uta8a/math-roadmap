@@ -1,20 +1,23 @@
 ---
 layout: cryptography
-title: aaa
-description: 
+title: example-2
+description: example-2 description
 draft: false
 changelog:
   - summary: 見出し作成
-    date: 2022-04-18T16:54:43+09:00
+    date: 2022-04-19T03:44:45+09:00
 ---
 
-# タイトル
+# example-2
+$\alpha$ は $2$
 
 ## 概要
 
 ## 詳細
 
 ## メモ
+
+## 関連する問題
 
 ## 参考文献
 
