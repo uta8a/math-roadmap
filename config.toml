@@ -3,3 +3,6 @@ languageCode = 'ja'
 defaultContentLanguage = 'ja'
 title = '数学/アルゴリズム/暗号 のメモ'
 theme = 'suuri'
+
+[markup.goldmark.renderer]
+hardWraps = true # 改行でbrを入れる
