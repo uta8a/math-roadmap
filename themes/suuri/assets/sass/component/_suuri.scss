@@ -28,8 +28,66 @@ h6 {
   font-weight: 400;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+}
+
+p + h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+}
+
 p {
+  font-size: 1.2rem;
   display: block;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+i,
+cite,
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: #2e8cff;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p + p {
+  margin-top: 1.5em;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+
+ol,
+ul > li:before {
+  display: inline;
+  content: "-";
+  font: 29px/16px;
+  margin-right: 5px;
+}
+li > p {
+  display: inline;
 }

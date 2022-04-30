@@ -27,5 +27,7 @@ $breakpoints: (
 
 /* page style */
 .suuri {
+  margin-top: 2em;
+  margin-bottom: 2em;
   @import "component/_suuri";
 }
