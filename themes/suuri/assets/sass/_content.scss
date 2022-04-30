@@ -82,3 +82,38 @@
   margin-top: 15px;
   margin-bottom: 20px;
 }
+
+/* layouts/index.html new-post */
+#content > .new-post {
+  margin-top: 15px;
+}
+
+#content > .new-post dt {
+  display: flex;
+  align-items: flex-end;
+}
+
+#content > .new-post dt > .title {
+  margin-top: 10px;
+  font-size: large;
+  font-style: bold;
+}
+
+#content > .new-post dt > .published {
+  margin-top: 10px;
+  font-size: small;
+  margin-left: auto;
+}
+
+#content > .new-post dt > .title a {
+  color: rgb(174, 75, 8);
+}
+
+#content > .new-post dd > .description p {
+  margin-left: 1rem;
+}
+
+#content .new-post > h2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
