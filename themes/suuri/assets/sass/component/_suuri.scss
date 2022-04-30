@@ -75,9 +75,13 @@ p + p {
   margin-top: 1.5em;
 }
 
+pre[class*="language-"] {
+  margin-bottom: 1.5em;
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
-  white-space: normal !important;
+  white-space: pre-wrap !important;
   word-break: break-word !important;
 }
 
@@ -94,4 +98,7 @@ li > p {
 
 li {
   font-size: 1.2rem;
+  & > ul {
+    margin-left: 1em;
+  }
 }
