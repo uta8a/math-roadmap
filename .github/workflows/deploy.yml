@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
+    paths:
+      - 'content/**'
   pull_request:
 
 jobs:
