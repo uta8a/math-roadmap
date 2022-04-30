@@ -7,3 +7,6 @@ theme = 'suuri'
 [markup.goldmark.renderer]
 hardWraps = true # 改行でbrを入れる
 unsafe = true # Markdown中のHTMLタグをrender
+
+[markup.highlight]
+noClasses = false # disable injecting style for syntax highlight
