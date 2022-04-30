@@ -1,4 +1,4 @@
-*:not(.katex, .katex *) {
+*:not(.katex, .katex *, .token) {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
     "Meiryo", sans-serif;
 }
