@@ -8,7 +8,7 @@ description: |
   空行で段落別にできる
   数学ブロック $\alpha + 1$
   小さなコードブロック `code`
-draft: false # deploy時にtrueにしておくとよい
+draft: true # deploy時にtrueにしておくとよい
 changelog:
   - summary: 見出し作成
     date: 2022-04-30T17:32:55+09:00
