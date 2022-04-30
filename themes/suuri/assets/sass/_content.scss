@@ -11,57 +11,74 @@
   margin: 0 auto;
 }
 
-#content main > .title {
+#content > .title {
   margin-top: 25px;
 }
 
-#content main > .title > h1 {
+#content > .title > h1 {
   font-size: 2.5rem;
   font-weight: 400;
 }
 
-#content main p {
+#content p {
   display: block;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
 
-#content main > .description p {
+#content > .description p {
   margin-block-start: 1em;
   margin-block-end: 1em;
 }
 
-#content main > hr {
+#content > hr {
   border: 0;
   height: 2px;
   background: #555;
 }
 
-#content main > .list-container {
+/* layouts/_default/list.html */
+#content > .list-container {
   margin-top: 15px;
 }
 
-#content main > .list-container dt {
+#content > .list-container dt {
   display: flex;
   align-items: flex-end;
 }
 
-#content main > .list-container dt > .title {
+#content > .list-container dt > .title {
   margin-top: 10px;
   font-size: large;
   font-style: bold;
 }
 
-#content main > .list-container dt > .published {
+#content > .list-container dt > .published {
   margin-top: 10px;
   font-size: small;
   margin-left: auto;
 }
 
-#content main > .list-container dt > .title a {
+#content > .list-container dt > .title a {
   color: rgb(174, 75, 8);
 }
 
-#content main > .list-container dd > .description p {
+#content > .list-container dd > .description p {
   margin-left: 1rem;
+}
+
+/* layouts/index.html */
+#content > .list-topic li > .title {
+  margin-top: 10px;
+  font-size: large;
+  font-style: bold;
+}
+
+#content > .list-topic li > .title a {
+  color: rgb(174, 75, 8);
+}
+
+#content .top-hr {
+  margin-top: 15px;
+  margin-bottom: 20px;
 }

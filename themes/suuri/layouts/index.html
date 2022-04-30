@@ -10,9 +10,25 @@
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
   </head>
   <body>
-    <div id="content">
-      <h1>数学/アルゴリズム/暗号のメモ</h1>
-      <div>リンクをここに貼る</div>
-    </div>
+    <!-- render `content/_index.md` -->
+    <main id="content">
+      <div class="title">
+        {{ .Content }}
+      </div>
+      <hr class="top-hr">
+      <!-- list topic -->
+      <div class="list-topic">
+        <ul>
+          {{ range .Params.category }}
+          <li>
+            <div class="title">
+              <a href="{{ .link }}">{{ .title }}</a>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      <!-- new content page list -->
+    </main>
   </body>
 </html>
