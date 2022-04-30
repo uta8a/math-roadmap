@@ -3,35 +3,47 @@
     "Meiryo", sans-serif;
 }
 
-#content {
-  max-width: 54em;
+main {
+  @include mq(xs) {
+    max-width: 300px;
+  }
+  @include mq(sm) {
+    max-width: 400px;
+  }
+  @include mq(md) {
+    max-width: 600px;
+  }
+  @include mq(xl) {
+    max-width: 1000px;
+  }
+
   display: block;
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
 }
 
-#content > .title {
+.title {
   margin-top: 25px;
 }
 
-#content > .title > h1 {
+.title > h1 {
   font-size: 2.5rem;
   font-weight: 400;
 }
 
-#content p {
+p {
   display: block;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
 
-#content > .description p {
-  margin-block-start: 1em;
+.description p {
+  margin-block-start: 0.3em;
   margin-block-end: 1em;
 }
 
-#content > hr {
+hr {
   border: 0;
   height: 2px;
   background: #555;
@@ -65,55 +77,4 @@
 
 #content > .list-container dd > .description p {
   margin-left: 1rem;
-}
-
-/* layouts/index.html */
-#content > .list-topic li > .title {
-  margin-top: 10px;
-  font-size: large;
-  font-style: bold;
-}
-
-#content > .list-topic li > .title a {
-  color: rgb(174, 75, 8);
-}
-
-#content .top-hr {
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-
-/* layouts/index.html new-post */
-#content > .new-post {
-  margin-top: 15px;
-}
-
-#content > .new-post dt {
-  display: flex;
-  align-items: flex-end;
-}
-
-#content > .new-post dt > .title {
-  margin-top: 10px;
-  font-size: large;
-  font-style: bold;
-}
-
-#content > .new-post dt > .published {
-  margin-top: 10px;
-  font-size: small;
-  margin-left: auto;
-}
-
-#content > .new-post dt > .title a {
-  color: rgb(174, 75, 8);
-}
-
-#content > .new-post dd > .description p {
-  margin-left: 1rem;
-}
-
-#content .new-post > h2 {
-  font-size: 1.6rem;
-  font-weight: 300;
 }

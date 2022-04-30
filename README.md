@@ -33,3 +33,5 @@ $ hugo new cryptography/differential-cryptoanalysis/_index.md
 # その他
 
 changelogをfrontmatterに置く発想は [ア辞典](https://github.com/noshi91/algorithm-encyclopedia) を参考にしました
+
+style resetに、The New CSS Reset: https://github.com/elad2412/the-new-css-reset を使用しています。(MIT license)
