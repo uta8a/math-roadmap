@@ -6,6 +6,7 @@ on:
       - main  # Set a branch to deploy
     paths:
       - 'content/**'
+      - 'themes/**'
   pull_request:
 
 jobs:
