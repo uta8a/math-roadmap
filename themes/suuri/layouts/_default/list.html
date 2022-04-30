@@ -2,7 +2,7 @@
 <main id="content">
   <!-- change layout by searching frontmatter's layout property -->
   {{ if (isset .Params "layout") }}
-  <article>{{.Content}}</article>
+  <article class="suuri">{{.Content}}</article>
   {{ else }}
   <!-- auto generated list of each math content pages -->
   <div class="title">
