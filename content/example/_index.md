@@ -32,3 +32,15 @@ changelog:
 <hr>
 
 ↑htmlタグが書ける。ここでは `<hr>` を書いた
+
+```none
+$ git status
+```
+
+```c
+#include <stdio.h>
+
+int main(void) {
+  int a = 1;
+}
+```
