@@ -44,3 +44,21 @@ int main(void) {
   int a = 1;
 }
 ```
+
+```none
+$ very long loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong code
+```
+
+**em** **強調** をしています
+
+_italic_ _イタリック_ で書いています
+
+[トップページへのリンク](/) です
+[外部へのリンク](https://blog.uta8a.net/) です
+
+箇条書きです
+- ワン
+- ツー
+- スリー
+
+- 少し離してフォー これは離してもくっつけても同じHTML構造になるみたい

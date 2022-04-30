@@ -60,9 +60,9 @@ SECT CTF 2017 - Bad AES https://pequalsnp-team.github.io/writeups/Bad-Aes
 
 ## 参考文献
 
-- <a name="ref-1">#</a> Howard M. Heys, A Tutorial on Linear and Differential Cryptanalysis
-- <a name="ref-2">#</a> NIST, FIPS PUB 46-3 DATA ENCRYPTION STANDARD (DES), 1999 October 25
-- <a name="ref-3">#</a> NIST, FIPS PUB 197 Announcing the ADVANCED ENCRYPTION STANDARD (AES), 2001 November 26
+- 文献1: <a name="ref-1"></a> Howard M. Heys, A Tutorial on Linear and Differential Cryptanalysis
+- 文献2: <a name="ref-2"></a> NIST, FIPS PUB 46-3 DATA ENCRYPTION STANDARD (DES), 1999 October 25
+- 文献3: <a name="ref-3"></a> NIST, FIPS PUB 197 Announcing the ADVANCED ENCRYPTION STANDARD (AES), 2001 November 26
 
 
 ## 関連項目
