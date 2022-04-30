@@ -41,7 +41,7 @@
                 <a href="{{ .link }}">{{ .title }}</a>
               </div>
               <div class="published">
-                <span class="prefix">published on</span>
+                <span class="prefix">last edited: </span>
                 <span class="date"> {{ time.Format "2006-01-02" .date }} </span>
               </div>
             </dt>
@@ -54,6 +54,7 @@
           </dl>
         </ol>
       </div>
+      {{ partial "footer.html" }}
     </main>
   </body>
 </html>
