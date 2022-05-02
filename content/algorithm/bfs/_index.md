@@ -6,6 +6,8 @@ draft: false
 changelog:
   - summary: 見出し作成
     date: 2022-05-01T05:49:59+09:00
+  - summary: グリッド金のwriteup追加
+    date: 2022-05-02T14:50:02+09:00
 ---
 
 # BFS
@@ -46,7 +48,7 @@ DFS(深さ優先探索)とセットで語られることが多い。両者の違
 
 ## 関連する問題
 
-- 第三回 アルゴリズム実技検定 G - グリッド金移動: [問題](https://atcoder.jp/contests/past202005-open/tasks/past202005_g) / writeup
+- 第三回 アルゴリズム実技検定 G - グリッド金移動: [問題](https://atcoder.jp/contests/past202005-open/tasks/past202005_g) / [writeup](https://math.docs.uta8a.net/writeup/grid-gold/)
 
 ## 参考文献
 
